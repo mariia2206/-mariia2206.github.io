@@ -1,0 +1,240 @@
+.header {
+    width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-top:50px;
+	height:500px;
+	background:url(pexels-photo.jpg);
+}
+
+.header__rog{
+	margin-top:100px;
+	margin-left:400px;
+	color:white;
+	font-family:Corporate A Pro;
+	font-size:50px;
+	background-color:#5c7383;
+	width:400px;
+	height:350px;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+	
+}
+.header__flex{
+	margin-top:-200px;
+
+}
+.blue{
+	box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+	font-family:Corporate A Pro;
+	color:white;
+	width:100%;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	height:150px;
+	background-color:#5c7383;
+}
+.grey{
+	width:600px;
+	height:350px;
+	background-color:white;
+	box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+}
+.p{		
+		padding-left:50px;
+		margin-top:-220px;
+	    width:850px;
+		color:#5c7383;
+		font-family:Corporate A Pro;
+		font-size:20px;
+		text-align:left;
+		
+}
+.a{
+	margin:-30px 0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.b{
+	margin:0 -50px;
+	padding:20px;
+}
+
+.block1{
+	margin-left:800px;
+	width:700px;
+	font-size:17px;
+	font-family:Corporate A Pro;
+	color:#5c7383;
+    text-align:right;
+	border-left:2px solid #5c7383;
+	margin-bottom:100px;
+	padding-left:50px;
+}
+.text{
+	color:#5c7383;
+	flex-direction: column;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin: 0 30px;
+	padding: 40px 30px;
+	text-align:center;
+}
+.img{
+	margin-top:-750px;
+	margin-left:-800px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction: column;
+}
+.main{
+	background-color:rgba(0,0,0,0.1);
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	padding-top:50px;
+}
+.main5{
+	padding-bottom:200px;
+	background-color:rgba(0,0,0,0.1);
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	padding-top:50px;
+}
+.main2{
+	background-color:rgba(0,0,0,0.1);
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	padding:200px 0;
+}
+.main3{
+	background-color:rgba(0,0,0,0.1);
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	padding:50px 0;
+	padding-bottom:200px;
+}
+.main4{
+	background-color:rgba(0,0,0,0.1);
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	padding:100px 0;
+}
+.block2{
+	margin-left:-700px;
+	width:700px;
+	font-size:17px;
+	font-family:Corporate A Pro;
+	color:#5c7383;
+    text-align:left;
+	border-right:2px solid #5c7383;
+	margin-bottom:100px;
+	padding-right:50px;
+}
+.img2{
+	margin-top:-750px;
+	margin-left:800px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction: column;
+}
+.menu{
+	background-color:#5c7383;
+	padding: 1px;
+	width: 100%;
+	display:flex;
+ 	justify-content:center;
+	align-items:center;
+	position:fixed;
+	margin-top:-10px;
+	
+}
+.menu__design a:link, .menu__design a:visited{
+	text-decoration: none;
+	color: white;
+	font: 13px Arial;
+	padding-right: 25px;
+	
+
+	
+}
+.menu__design a:hover, .menu8 a:active{
+	background: white;
+	color:#5c7383;
+	padding: 10px;
+}
+.footer {
+	box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+    display:  flex;
+    justify-content: center;
+    min-height: 200px;
+    background-color: #5c7383;
+
+
+}
+.footer__line{
+	padding-top:100px;
+
+}
+.none{
+	text-decoration: none;
+	color:white;
+	
+}
+.contact{
+    color:white;
+	padding-top:100px;
+}
+.footer__icons{
+	padding:100px 100px;
+}
+.pointer img {
+    position: relative;
+    top: 5px;
+    left: 4px;
+}
+.pointer {
+    background-color:white;
+	border:2px solid #5c7383;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    z-index: 100;
+    bottom: 15px;
+    right: 15px;
+}

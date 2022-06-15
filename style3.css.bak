@@ -1,0 +1,146 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+
+
+}
+.header {
+	margin-top:-50px;
+    width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-top:50px;
+	background-color:#5c7383;
+	height:400px;
+	
+
+}
+
+.header__rog{
+	
+	color:white;
+	font-family:Corporate A Pro;
+	font-size:50px;
+	text-align:right;
+
+}
+.p{
+	    width:850px;
+		color:white;
+		font-family:Corporate A Pro;
+		font-size:20px;
+		opacity:0.8;
+		text-align:right;
+}
+.main{
+	background-color:rgba(0,0,0,0.1);
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding-top:50px;
+    flex-direction: column;
+
+}
+.main__1{
+	width:850px;
+	font-size:20px;
+	font-family:Corporate A Pro;
+	color:#5c7383;
+	height:200px;
+	border-radius:20px;
+	margin-bottom:50px;
+	text-align:justify;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.color{
+	border:3px solid #5c7383;
+	padding:20px;
+	box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+}
+.text{
+	
+	flex-direction: column;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin: 0 50px;
+	padding: 50px 50px;
+}
+.menu{
+	padding: 1px;
+	background-color: #5c7383;
+	width: 100%;
+	display:flex;
+ 	justify-content:center;
+	align-items:center;
+		
+	
+}
+.menu__design a:link, .menu__design a:visited{
+	text-decoration: none;
+	color: white;
+	font: 13px Arial;
+	padding-right: 25px;
+	
+
+	
+}
+.menu__design a:hover, .menu8 a:active{
+	background:  white;
+	color:#5c7383;
+	padding: 10px;
+
+}
+.footer {
+	box-shadow: 0 -3px 10px rgba(0,0,0,0.3);
+    display:  flex;
+    justify-content: center;
+    min-height: 200px;
+    background-color: #5c7383;
+
+
+}
+.footer__line{
+	padding-top:100px;
+
+}
+.none{
+	text-decoration: none;
+	color:white;
+	
+}
+.contact{
+    color:white;
+	padding-top:100px;
+}
+.footer__icons{
+	padding:100px 100px;
+}
+.pointer img {
+    position: relative;
+    top: 5px;
+    left: 4px;
+}
+.pointer {
+    background-color:white;
+	border:2px solid #5c7383;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    z-index: 100;
+    bottom: 15px;
+    right: 15px;
+}
+.a{
+	
+}
